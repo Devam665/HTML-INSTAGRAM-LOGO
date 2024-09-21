@@ -1,0 +1,57 @@
+*{
+    margin: 0;;
+    padding: 0;
+
+}
+
+.container{
+    background-color:#ffff;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+
+.instagram{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background: radial-gradient(circle at 25% 109%,
+                                    #f2e665 0%,
+                                    #f2e665 15%,
+                                    #f04b48 45%,
+                                    #d52bb1 60%,
+                                    #5748db 85%);
+     border-radius: 20%;
+     left: 25%;
+     top: 20%;
+}
+.outline{
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 13%;
+    left: 13.5%;
+    border-radius: 20%;
+    border: 18px solid #fff ;
+}
+
+.inside{
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    position: absolute;
+    left: 18%;
+    top: 20%;
+    border: 18px solid #fff;
+}
+
+.circle{
+   width: 12%;
+    height: 12%;
+    position: absolute;
+    right: 12%;
+    top: 11%;
+    border-radius: 50%;
+}
